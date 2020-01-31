@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
+
+html {
+ font-family: Nunito, sans-serif;
+}
+body {
+ margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.iconbar li {
+  display:inline;
+}
+
+.menu {
+  text-align: left;
+  display: none;
+  position: absolute;
+}
+
+.menu li {
+  font-size: 80%;
+  padding: 1em;
+  width: 180px;
+  display: block;
+  margin-bottom: .3em;
+}
+
+.menu li a {
+  color: black;
+  text-decoration: none;
+}
+.submenu li a {
+  color: black;
+  text-decoration: none;
+}
+
+.submenu li:hover {
+  background: #DDD;
+}
+
+
+.menu li:hover {
+  background: #DDD;
+}
+
+.menu i {
+  color: #666;
+  margin-right: .5em;
+}
+
+.submenu li {
+    padding: 1em;
+    margin-right: 2em;
+}
+
+.submenu i {
+  margin-right: .25em;
+}
+
+.submenu i {
+  font-size: 160%;
+}
+
+.menu.follow span {
+  margin-left: -7px;
+}
+
+.menu i.submenu {
+  font-size: 80%;
+  margin-left: 1.1em;
+}
+
+ul.submenu.about {
+    margin-top: 3em;
+}
+
+.page-container {
+   width: 100%;
+   text-align: center;
+}
+
+.header {
+  margin-top: 100px;
+}
+
+.title {
+   font-size: 40px;
+   text-transform: uppercase;
+   letter-spacing: .5em;
+}
+
+.subtitle {
+   position: relative;
+   left: 0px;
+   font-size: 25px;
+   text-transform: uppercase;
+}
+
+.iconbar {
+  margin-top: 5em;
+}
+
+.iconbar .icon {
+ display: inline-block;
+ width: 110px;
+}
+
+
+.icon-follow, .icon-about { 
+
+/* .icon-writing, .icon-about { */
+ margin-right: 9em;
+}
+
+.icon img {
+ display: inline-block;
+ clear: both;
+}
+
+.icon:hover svg path, .icon:hover svg rect, .icon:hover .caption {
+  fill: #f64043;
+  color: #f64043; 
+}
+
+
+/* blue
+  fill: #00b0dc;
+  color: #00b0dc;
+
+ red
+  fill: #f64043;
+  color: #f64043; 
+  green
+  fill: #40A643;
+  color: #40A643;
+*/
+/* like this #fe656f; */
+  /* fill: #36bcab;  #303080;
+     color: #36bcab;*/
+
+
+.iconbar .caption {
+  display: inline;
+  margin: 0 auto;
+}
+
+.about-me {
+  position: absolute;
+  text-align: left;
+  font-size: 90%;
+  margin: 20px;
+  padding: 2em;
+  width: 100%;
+  display: none;
+  background: rgba(255, 255, 255, .9);
+}
+
+@media (max-height: 550px), (max-width: 645px){
+   .header {
+      margin-top: 100px;
+   }
+}
+
+@media (max-width: 970px){
+  .icon {
+    margin-right: 4em;
+  }
+  .title {
+    font-size: 30px;
+    letter-spacing: 6px;
+  }
+}
+
+@media (max-width: 645px){
+   .title {
+     font-size: 24px;
+     letter-spacing: 1px;
+   }
+   .menu li {
+      padding: .25em;
+   }
+   .iconbar .icon {
+    width: 80px;
+   }
+   .icon-about, .icon-writing {
+     margin-right: 1em;
+   }
+}
+
+@media (max-width: 445px){
+   .iconbar .icon {
+    width: 60px;
+   }
+   .caption {
+    font-size: 70%;
+   }
+}
