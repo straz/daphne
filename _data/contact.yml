@@ -1,0 +1,8 @@
+- url: "mailto:daphne@strassmann.com"
+  class: "fa fa-envelope-o"
+- url: "http://twitter.com/birdrobot"
+  class: "fa fa-twitter"
+- url: "http://instagram.com/birdrobot"
+  class: "fa fa-instagram"
+- url: "http://pinterest.com/birdrobot"
+  class: "fa fa-pinterest"

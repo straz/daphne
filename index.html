@@ -3,73 +3,60 @@ layout: default
 title: Daphne Strassmann
 ---
 
-<div class="page-container">
+<div class="title text-center mt-5 mb-5">Daphne Strassmann</div>
 
-  <div class="header">
-    <div class="title">Daphne Strassmann</div>
-  </div>
+<!--div class="iconbar text-center"-->
 
-  <div class="iconbar container">
+<ul class="iconbar list-inline text-center">
+  <!-- About me - head -->
+  <li class="list-inline-item icon-about">
+    <img id="head" src="assets/pix/head.svg">
+    <div class="caption">About</div>
 
-    <li>
-      <div class="icon icon-about"><img class="svg person" src="assets/pix/head.svg"><br/>
-	<div class="caption">About</div></div>
+    <div class="about-me">
+      I am a Memoirist. I write about the intangible spaces 
+      between my Latino heritage and my American life, but I am also provoked by 
+      memoir as craft and its relationship to memory, especially in the digital age.
 
-      <div class="about-me triangle-isosceles">I am a Memoirist. I write about the intangible spaces 
-	between my Latino heritage and my American life, but I am also provoked by 
-	memoir as craft and its relationship to memory, especially in the digital age.
-
-	<ul class="submenu about">
-          <li><a href="mailto:daphne@strassmann.com"><i class="fa fa-envelope-o"></i></a></li>
-          <li><a href="http://twitter.com/birdrobot" target="twitter"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="http://instagram.com/birdrobot" target="twitter"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="http://pinterest.com/birdrobot" target="twitter"><i class="fa fa-pinterest"></i></a></li>
-	</ul>
-
+      <ul class="submenu about">
+	{% for link in site.data.contact %}
+        <li><a href="{{ link.url}}"><i class="{{ link.class }}"></i></a></li>
+	{% endfor %}
+      </ul>
       </div>
-    </li>
+  </li>
      
-    <li>
-      <div class="icon icon-follow"><img class="svg megaphone" src="assets/pix/noun_766698_cc.svg"><br/>
-	<div class="caption">Press &amp; events</div></div>
-      <ul class="menu follow">
-	<li><a href="https://themusethemarketplace2020.sched.com/event/XzZ0/9j-yes-you-can-write-that-in-your-memoir-on-line-crossing-competing-memories-and-giving-yourself-permission" target="grub">
-	    Yes, You Can Write That in Your Memoir: On Line-Crossing, Competing Memories, and Giving Yourself Permission</a>
-	  <br/><i class="submenu">Presentation: Muse and the Marketplace, Apr 5, 2020</i></li>
-	<li><a href="https://grubstreet.org/findaclass/class/go-there-writing-about-difficult-subject-matter-1" target="grub">
-	    Go there: Writing about difficult subject matter</a>
-	  <br/><i class="submenu">Event: teaching at Grub Street</i></li>
 
-	<li><a href="http://www.bloomsdayliterary.com/podcast/2018/4/6/the-village-works-co-working-and-writing" target="blooms">
-	    The Village Works: CoWorking and Writing</a>
-	  <br/><i class="submenu">Interview</i></li>
-	
-	<li><a href="http://www.sharonaphoto.com/blog/writers-block" target="sharona">
-	    Sharona Jacobs: Writer's Block</a>
-	  <br/><i class="submenu">Profile</i></li>
+  <!-- Follow me - megaphone -->
+  <li class="list-inline-item icon-follow">
+    <img id="megaphone" src="assets/pix/megaphone.svg">
+    <div class="caption">Press &amp; events</div>
 
-			
-	<li><a href="https://makinglifework.libsyn.com/episode-36-the-art-of-saying-screw-it" target="podcast">Making Life Work podcast</a>:
-	  <i class="submenu">Interview</i></li>
-	<li><a href="https://www.pw.org/content/novemberdecember_2018" target="magazine">Poets and Writers</a><br/><i class="submenu">Interview</i></li>
-      </ul>
-    </li>
+    <ul class="menu follow">
+      {% for link in site.data.events %}
+      <li><a href="{{ link.url }}" target="event">{{ link.title }}</a>
+	<br/><i class="submenu">{{ link.tag }}</i></li>
+      {% endfor %}
+    </ul>
+  </li>
 
-    <li>
-      <div class="icon icon-writing"><img class="svg typewriter" src="assets/pix/noun_499659_cc.svg"><br/>
-	<div class="caption">Writing</div></div>
-      <ul class="menu writing">
-	<li><a href="http://rekindleyourcraft.com" target="rekindle">Rekindle Your Craft<br/>
-	    <i class="submenu">a writing workshop</i></a></li>
-	<li><a href="http://birdrobot.wordpress.com" target="blog">Blog</a></li>
-	<li><a href="http://makinglifework.libsyn.com/episode-36-the-art-of-saying-screw-it" target="podcast">Podcast</a></li>
-	<li><a href="https://grubstreet.org/blog/editor-panel-writers-of-color-daphne-strassman/"
-	       target="blog">GrubStreet</a></LI>
-        <li><a href="https://www.creativenonfiction.org/online-reading/perils-perfect-memory" target="perils">Creative Nonfiction</a></li>
-        <li><a href="http://textmex.blogspot.com" target="texmex">Tex{t}-Mex<br/><i class="submenu">contributor</i></a></li>
-      </ul>
-    </li>
+  <!-- Writing - megaphone -->
+  <li class="list-inline-item icon-writing">
+    <img id="typewriter" src="assets/pix/typewriter.svg">
+    <div class="caption">Writing</div>
 
-  </div>
-</div>
+    <ul class="menu writing">
+      <li><a href="http://rekindleyourcraft.com" target="rekindle">Rekindle Your Craft<br/>
+	  <i class="submenu">a writing workshop</i></a></li>
+      <li><a href="http://birdrobot.wordpress.com" target="blog">Blog</a></li>
+      <li><a href="http://makinglifework.libsyn.com/episode-36-the-art-of-saying-screw-it" target="podcast">Podcast</a></li>
+      <li><a href="https://grubstreet.org/blog/editor-panel-writers-of-color-daphne-strassman/"
+	     target="blog">GrubStreet</a></LI>
+      <li><a href="https://www.creativenonfiction.org/online-reading/perils-perfect-memory" target="perils">Creative Nonfiction</a></li>
+      <li><a href="http://textmex.blogspot.com" target="texmex">Tex{t}-Mex<br/><i class="submenu">contributor</i></a></li>
+    </ul>
+  </li>
+  </ul>
+
+<!-- /div -->
 
