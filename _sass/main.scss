@@ -14,11 +14,10 @@ body {
 
 /* ICONS */
 
-#head, #typewriter { width: 7em; }
-#megaphone         { width: 7em;   }
+#head, #typewriter, #megaphone { width: 4em; }
 
 .iconbar > li {
-    margin-top: 1.7em;
+    /* margin-top: 1.7em; */
     margin-left: 8.5em;
     margin-right: 8.5em;
 }
@@ -46,6 +45,11 @@ body {
  }
 }
 
+ul {
+    a {	color: #777; }
+   .tag { color: black; }
+}
+
 ul.events {
  display: none;
 }
@@ -54,62 +58,6 @@ ul.writing {
   display: none;
   float: right;
 }
-
-
-
-.menu {
-  text-align: left;
-  display: none;
-  position: absolute;
-  li {
-    font-size: 80%;
-    padding: 1em;
-    width: 180px;
-    display: block;
-    margin-bottom: .3em;
-    &:hover {
-      background: #DDD;
-    }
-    a {
-    color: black;
-    text-decoration: none;
-    }
-    i {
-    color: #666;
-    margin-right: .5em;
-    }
-  }
-}
-
-
-.menu i.submenu {
-  font-size: 80%;
-  margin-left: 1.1em;
-}
-
-
-.submenu li a {
-  color: black;
-  text-decoration: none;
-}
-
-.submenu li:hover {
-  background: #DDD;
-}
-
-.submenu li {
-    padding: 1em;
-    margin-right: 2em;
-}
-
-.submenu i {
-  margin-right: .25em;
-}
-
-.submenu i {
-  font-size: 160%;
-}
-
 
 
 /* PHONE SIZES */
@@ -121,9 +69,12 @@ ul.writing {
 }
 
 @media (max-width: 1000px){
-  .icon {
-    margin-right: 4em;
-  }
+
+   .iconbar > li {
+       margin-left: 3em;
+       margin-right: 3em;
+   }
+
   .title {
     font-size: 30px;
     letter-spacing: 6px;
@@ -142,8 +93,6 @@ ul.writing {
 }
 
 @media (max-width: 645px){
-   #head, #typewriter { width: 6.5em; }
-   #megaphone         { width: 6em;   }
    
    .iconbar > li {
        margin-left: 2em;
@@ -158,9 +107,11 @@ ul.writing {
 }
 
 @media (max-width: 445px){
-   #head, #typewriter { width: 5.5em; }
-   #megaphone         { width: 5em;   }
    
+   .iconbar > li {
+       margin-left: 0;
+       margin-right: 0;
+   }
    .caption {
     font-size: 70%;
    }

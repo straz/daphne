@@ -46,17 +46,19 @@ title: Daphne Strassmann
 <!-- EVENTS -->
 <ul class="events list-unstyled mt-5">
   {% for link in site.data.events %}
-  <li class="mb-2"><a href="{{ link.url }}" target="event">{{ link.title }}</a>
-    <br/><i class="submenu">{{ link.tag }}</i></li>
+  <li class="mb-3">
+    <i class="tag">{{ link.tag }}</i><br/>
+    <a href="{{ link.url }}" target="event">{{ link.title }}</a>
+  </li>
   {% endfor %}
 </ul>
 
 <!-- WRITING -->
 <ul class="writing list-unstyled mt-5">
   {% for link in site.data.writing %}
-  <li class="mb-2"><a href="{{ link.url }}" target="writing">{{ link.title }}</a>
+  <li class="mb-3"><a href="{{ link.url }}" target="writing">{{ link.title }}</a>
       {% if link.subtitle %}
-      &middot; <i class="submenu">{{ link.subtitle }}</i>
+      &middot; <i class="tag">{{ link.subtitle }}</i>
       {% endif %}
   </li>
   {% endfor %}
