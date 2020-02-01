@@ -12,18 +12,6 @@ title: Daphne Strassmann
   <li class="list-inline-item icon-about">
     <img id="head" src="assets/pix/head.svg">
     <div class="caption">About</div>
-
-    <div class="about-me">
-      I am a Memoirist. I write about the intangible spaces 
-      between my Latino heritage and my American life, but I am also provoked by 
-      memoir as craft and its relationship to memory, especially in the digital age.
-
-      <ul class="submenu about">
-	{% for link in site.data.contact %}
-        <li><a href="{{ link.url}}"><i class="{{ link.class }}"></i></a></li>
-	{% endfor %}
-      </ul>
-      </div>
   </li>
      
 
@@ -31,32 +19,45 @@ title: Daphne Strassmann
   <li class="list-inline-item icon-follow">
     <img id="megaphone" src="assets/pix/megaphone.svg">
     <div class="caption">Press &amp; events</div>
-
-    <ul class="menu follow">
-      {% for link in site.data.events %}
-      <li><a href="{{ link.url }}" target="event">{{ link.title }}</a>
-	<br/><i class="submenu">{{ link.tag }}</i></li>
-      {% endfor %}
-    </ul>
   </li>
 
   <!-- Writing - megaphone -->
   <li class="list-inline-item icon-writing">
     <img id="typewriter" src="assets/pix/typewriter.svg">
     <div class="caption">Writing</div>
-
-    <ul class="menu writing">
-      <li><a href="http://rekindleyourcraft.com" target="rekindle">Rekindle Your Craft<br/>
-	  <i class="submenu">a writing workshop</i></a></li>
-      <li><a href="http://birdrobot.wordpress.com" target="blog">Blog</a></li>
-      <li><a href="http://makinglifework.libsyn.com/episode-36-the-art-of-saying-screw-it" target="podcast">Podcast</a></li>
-      <li><a href="https://grubstreet.org/blog/editor-panel-writers-of-color-daphne-strassman/"
-	     target="blog">GrubStreet</a></LI>
-      <li><a href="https://www.creativenonfiction.org/online-reading/perils-perfect-memory" target="perils">Creative Nonfiction</a></li>
-      <li><a href="http://textmex.blogspot.com" target="texmex">Tex{t}-Mex<br/><i class="submenu">contributor</i></a></li>
-    </ul>
   </li>
+</ul>
+
+<!-- HIDDEN ITEMS -->
+
+<!-- ABOUT ME -->
+<div class="about-me mt-5">
+  I am a Memoirist. I write about the intangible spaces 
+      between my Latino heritage and my American life, but I am also provoked by 
+      memoir as craft and its relationship to memory, especially in the digital age.
+
+  <ul class="contacts list-inline">
+    {% for link in site.data.contact %}
+    <li class="list-inline-item"><a href="{{ link.url}}"><i class="{{ link.class }}"></i></a></li>
+    {% endfor %}
   </ul>
+</div>
 
-<!-- /div -->
+<!-- EVENTS -->
+<ul class="events list-unstyled mt-5">
+  {% for link in site.data.events %}
+  <li class="mb-2"><a href="{{ link.url }}" target="event">{{ link.title }}</a>
+    <br/><i class="submenu">{{ link.tag }}</i></li>
+  {% endfor %}
+</ul>
 
+<!-- WRITING -->
+<ul class="writing list-unstyled mt-5">
+  {% for link in site.data.writing %}
+  <li class="mb-2"><a href="{{ link.url }}" target="writing">{{ link.title }}</a>
+      {% if link.subtitle %}
+      &middot; <i class="submenu">{{ link.subtitle }}</i>
+      {% endif %}
+  </li>
+  {% endfor %}
+</ul>

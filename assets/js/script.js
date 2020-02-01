@@ -4,17 +4,14 @@ PHONE_WIDTH = 645;
 
 ICONS = {
   'icon-about': {draw: draw_aboutme, child: '.about-me'},
-  'icon-writing': {draw: draw_writing, child: '.menu.writing'},
-  'icon-contact': {draw: draw_contact, child: '.menu.contact'},
-  'icon-follow': {draw: draw_follow, child: '.menu.follow'}
+  'icon-writing': {draw: draw_writing, child: 'ul.writing'},
+  'icon-follow': {draw: draw_follow, child: 'ul.events'}
 };
 
 function init_page(){
-    //inline_svg();
     // click on the iconbar
     $('.iconbar > li').click(handle_click);
-  //$(window).resize(resize_all);
-  $(document).click(unclick);
+    $(document).click(unclick);
 }
 
 function handle_click(e){
@@ -44,26 +41,26 @@ function handle_click_icon(cls, properties){
 
 function unclick(){
   $('.about-me').hide();
-  $('.menu.writing').hide();
-  $('.menu.contact').hide();
-  $('.menu.follow').hide();
+  $('ul.writing').hide();
+  $('ul.events').hide();
 }
 
 function draw_aboutme(){
-  resize_aboutme();
   $('.about-me').toggle();
   return false;
 }
 
 function draw_writing(){
-  var pos = $('.icon-writing').offset();
-  $('.menu.writing').css('left', pos.left).toggle();
+  //var pos = $('.icon-writing').offset();
+  //$('.menu.writing').css('left', pos.left).toggle();
+  $('ul.writing').toggle();
   return false;
 }
 
 function draw_follow(){
-  var pos = $('.icon-follow').offset();
-  $('.menu.follow').css('left', pos.left).toggle();
+  //var pos = $('.icon-follow').offset();
+  //   $('.menu.follow').css('left', pos.left)
+  $('ul.events').toggle();
   return false;
 }
 
