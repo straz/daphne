@@ -1,14 +1,18 @@
-- url: "http://rekindleyourcraft.com"
-  title: Rekindle Your Craft
-  tag: A writing workshop
-
 - url: "https://grubstreet.org/findaclass/class/from-zero-to-memoir-2/"
-  title: "(Virtual class) From Zero to Memoir - Remote!"
-  tag: "Event: teaching at Grub St, Apr 10, 2020"
+  title: "From Zero to Memoir - Remote!"
+  tag: "Event: virtual class at Grub St, Apr 10, 2020"
+
+- url: "https://www.manifestboston.org/manifest-at-home"
+  title: "Manifest: Creative Writing Workshop"
+  tag: "Event: virtual workshop, Apr 7, 2020"
 
 - url: "https://themusethemarketplace2020.sched.com/event/XzZ0/9j-yes-you-can-write-that-in-your-memoir-on-line-crossing-competing-memories-and-giving-yourself-permission"
   title: "Yes, You Can Write That in Your Memoir: On Line-Crossing, Competing Memories, and Giving Yourself Permission"
   tag: "Presentation: Muse and the Marketplace, Apr 5, 2020"
+
+- url: "http://rekindleyourcraft.com"
+  title: Rekindle Your Craft
+  tag: A writing workshop
 
 - url: "https://grubstreet.org/findaclass/class/go-there-writing-about-difficult-subject-matter-1"
   title: "Go there: Writing about difficult subject matter"
