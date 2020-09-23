@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<script>
+$(document).ready(colorize);
+
+function colorize(){
+    let chars = $('.skittles').text();
+    $('.skittles').empty();
+    for (var i in chars){
+	let cdiv = $('<span/>').text(chars[i]).css('color', getColor());
+	$('.skittles').append(cdiv);
+    }
+}
+
+
+function getColor(){ 
+  return "hsl(" + 360 * Math.random() + ',' +
+             (25 + 70 * Math.random()) + '%,' + 
+             (35 + 10 * Math.random()) + '%)'
+}
+
+</script>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Mulish:900);
+
+.skittles {
+    margin-top: 3em;
+    font-family: Mulish;
+    font-weight: 900;
+    font-size: 5em;
+    letter-spacing: 1em;
+    text-transform: uppercase;
+}
+</style>
+
+
+<p class="skittles">
+  Hey Daphne
+</p>
