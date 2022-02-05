@@ -1,0 +1,8 @@
+- name: about
+  url: about
+- name: writing
+  url: writing
+- name: events
+  url: events
+- name: contact
+  url: contact

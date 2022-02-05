@@ -10,8 +10,8 @@ ICONS = {
 
 function init_page(){
     // click on the iconbar
-    $('.iconbar > li').click(handle_click);
-    $(document).click(unclick);
+    //$('.iconbar > li').click(handle_click);
+    //$(document).click(unclick);
 }
 
 function handle_click(e){

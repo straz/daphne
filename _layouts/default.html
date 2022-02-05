@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" class="h-100">
   {% include head.html %}
-  <body>
-    <div class="container content">
+  <body class="d-flex flex-column min-vh-100">
+    <div class="container py-3">
+      {% include navbar.html %}
+      <div class="container content">
       {{ content }}
+      </div>
     </div>
+    <footer class="mt-auto"></footer>
   </body>
 </html>
