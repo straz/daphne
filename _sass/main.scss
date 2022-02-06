@@ -55,6 +55,21 @@ header {
   }
 }
 
+.date {
+  color: #444;
+  background-color: #EEE;
+  font-size: 70%;
+  border-radius: 4px;
+  padding: 0px 4px;
+  margin-left: .5em;
+}
+
+.writing {
+  ul {
+    padding-left: 3em;
+  }
+}
+
 .events {
   li {
     margin-bottom: .7em;
@@ -63,23 +78,8 @@ header {
       font-size: 80%;
     }
   }
-  .date {
-    color: #444;
-    background-color: #EEE;
-    font-size: 70%;
-    border-radius: 4px;
-    padding: 0px 4px;
-    margin-left: .5em;
-  }
 }
 
-.contacts1 li {
-  padding-left: .2em;
-  i {
-    margin-right: .5em;
-  }
-
-}
 
 
 /* ICONS */

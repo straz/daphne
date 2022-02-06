@@ -4,11 +4,25 @@
 - url: "http://makinglifework.libsyn.com/episode-36-the-art-of-saying-screw-it"
   title: Podcast  
 
-- url: "https://grubstreet.org/blog/editor-panel-writers-of-color-daphne-strassman/"  
+- url: "https://grubstreet.org"
   title: GrubStreet
+  links:
 
-- url: "https://www.creativenonfiction.org/online-reading/perils-perfect-memory" 
+     - url: "https://grubstreet.org/blog/muse-20-with-daphne-santana-strassmann/"
+       title: Memory in the Memoir is a Frenemy
+       date: 2020-03-25
+
+     - url: "https://grubstreet.org/blog/editor-panel-writers-of-color-daphne-strassman/"
+       title: How Can Journals Do More to Improve Representation?
+       date: 2018-01-22
+
+- url: "https://www.creativenonfiction.org"
   title: Creative Nonfiction
+  links:
+
+    - url: "https://creativenonfiction.org/writing/the-perils-of-perfect-memory/"
+      title: The Perils of Perfect Memory
+      date: 2015-03-01
 
 - url: "http://textmex.blogspot.com"
   title: "Tex{t}-Mex"
