@@ -1,8 +1,8 @@
 - name: about
   url: about
-- name: writing
-  url: writing
 - name: events
   url: events
+- name: writing
+  url: writing
 - name: contact
   url: contact
