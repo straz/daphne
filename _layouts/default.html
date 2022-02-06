@@ -8,6 +8,12 @@
       {{ content }}
       </div>
     </div>
-    <footer class="mt-auto"></footer>
+    <footer class="mt-auto p-5">
+      <div class="d-flex contacts flex-row-reverse mr-5">
+	{% for link in site.data.contact %}
+	<a class="p-3" href="{{ link.url}}"><i class="{{ link.class }}"></i></a>
+	{% endfor %}
+      </div>
+    </footer>
   </body>
 </html>
