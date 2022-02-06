@@ -8,11 +8,20 @@
   tag: "Event: virtual class at Grub St"
   date: 2021-11-13
 
-
 - url: "https://www.cambridgema.gov/citycalendar/view.aspx?guid=821534b26007477db7ae7cb149da2a48"
   title: "Escribiendo Nuestras Vidas (Virtual)"
   tag: "Taller en Español realizado en colaboración con GrubStreet."
   date: 2021-10-13
+
+- url: "https://grubstreet.org"
+  title: "Claro qué Yes!: Writing in Spanglish"
+  tag: "Class: virtual class at Grub St"
+  date: 2021-09-25
+
+- url: "https://grubstreet.org"
+  title: "Claro qué Yes!: Writing in Spanglish"
+  tag: "Class: virtual class at Grub St"
+  date: 2021-01-30
 
 - url: "https://grubstreet.org/findaclass/class/go-there-writing-about-difficult-subject-matter-remote/"
   title: "6 Weeks, 6 Essays, Remote!"
