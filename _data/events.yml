@@ -1,38 +1,49 @@
 - url: "https://calendar.massart.edu/event/daphne_strassmann_memoirist_spring_22_creative_writing_minor_reading_series"
-  tag: "Reading: Spring 22 Creative Writing Minor Reading Series, Feb 3, 2022"
+  tag: "Spring 22 Creative Writing Minor Reading Series"
+  date: "2022-02-3"
   title: "Reading"
 
 - url: "https://grubstreet.org/findaclass/class/go-there-writing-about-difficult-subject-matter-remote/"
   title: "6 Weeks, 6 Essays, Remote!"
-  tag: "Class: virtual class at Grub St, starting July 29, 2020"
+  tag: "Class: virtual class at Grub St"
+  date: 2020-07-29
+  date_tag: start
 
 - url: "https://grubstreet.org"
   title: "Now What? How to Start Finishing Your Memoir"
-  tag: "Event: virtual class at Grub St, August 22, 2020"
+  tag: "Event: virtual class at Grub St"
+  date: 2020-08-22
 
 - url: "https://grubstreet.org/findaclass/class/go-there-writing-about-difficult-subject-matter-remote/"
   title: "Go There: Writing About Difficult Subject Matter"
-  tag: "Virtual classes at Grub St, starting July 14, 2020"
+  tag: "Virtual classes at Grub St"
+  date: 2020-07-14
+  date_tag: start
 
 - url: "https://grubstreet.org/findaclass/class/from-zero-to-memoir-remote/"
   title: "From Zero to Memoir - Remote!"
-  tag: "Event: virtual class at Grub St, June 27, 2020"
+  tag: "Event: virtual class at Grub St"
+  date: 2020-06-27
 
 - url: "https://www.eventbrite.com/e/writespace-a-rekindle-evening-to-write-write-write-tickets-107345238498"
   title: "Rekindle:Writespace - Remote!"
-  tag: "Event: Writespace: A rekindle evening, June 4, 2020"
+  tag: "Event: Writespace: A rekindle evening"
+  date: 2020-06-4
 
 - url: "https://grubstreet.org/findaclass/class/from-zero-to-memoir-2/"
   title: "From Zero to Memoir - Remote!"
-  tag: "Event: virtual class at Grub St, Apr 10, 2020"
+  tag: "Event: virtual class at Grub St"
+  date: 2020-04-10
 
 - url: "https://www.manifestboston.org/manifest-at-home"
   title: "Manifest: Creative Writing Workshop"
-  tag: "Event: virtual workshop, Apr 7, 2020"
+  tag: "Event: virtual workshop"
+  date: 2020-04-7
 
 - url: "https://themusethemarketplace2020.sched.com/event/XzZ0/9j-yes-you-can-write-that-in-your-memoir-on-line-crossing-competing-memories-and-giving-yourself-permission"
   title: "Yes, You Can Write That in Your Memoir: On Line-Crossing, Competing Memories, and Giving Yourself Permission"
-  tag: "Presentation: Muse and the Marketplace, Apr 5, 2020"
+  tag: "Presentation: Muse and the Marketplace"
+  date: 2020-04-5
 
 - url: "http://rekindleyourcraft.com"
   title: Rekindle Your Craft
@@ -45,6 +56,7 @@
 - url: "http://www.bloomsdayliterary.com/podcast/2018/4/6/the-village-works-co-working-and-writing"
   title: "The Village Works: CoWorking and Writing"
   tag: Interview
+  date: 2018-04-6
 
 - url: "http://www.sharonaphoto.com/blog/writers-block"
   title: "Sharona Jacobs: Writer&rsquo;s Block"
@@ -57,3 +69,4 @@
 - url: "https://www.pw.org/content/novemberdecember_2018"
   title: Poets and Writers
   tag: Interview
+  date: 2018-12-1
