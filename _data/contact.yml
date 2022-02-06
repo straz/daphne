@@ -10,3 +10,6 @@
 - url: "http://pinterest.com/birdrobot"
   name: pinterest
   class: "fa fa-pinterest"
+- url: "https://www.linkedin.com/in/daphne-strassmann/"
+  name: LinkedIn
+  class: "fa fa-linkedin-square"
