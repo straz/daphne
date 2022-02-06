@@ -13,7 +13,7 @@
   tag: "Taller en Español realizado en colaboración con GrubStreet."
   date: 2021-10-13
 
-- url: "https://grubstreet.org"
+- url: "https://grubstreet.org/findaclass/class/claro-qu%C3%A9-yes-writing-in-spanglish-remote/"
   title: "Claro qué Yes!: Writing in Spanglish"
   tag: "Class: virtual class at Grub St"
   date: 2021-09-25
@@ -22,6 +22,12 @@
   title: "Claro qué Yes!: Writing in Spanglish"
   tag: "Class: virtual class at Grub St"
   date: 2021-01-30
+
+- url: "https://www.youtube.com/watch?v=vPoc4yoAGzQ"
+  title: "MIT: The Nita Regnier Memoir Writing Group Debuts Their Stories"
+  link_tag: youtube
+  tag: "Host: Daphne Strassmann (Youtube)"
+  date: 2020-12-04
 
 - url: "https://grubstreet.org/findaclass/class/go-there-writing-about-difficult-subject-matter-remote/"
   title: "6 Weeks, 6 Essays, Remote!"

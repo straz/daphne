@@ -11,6 +11,10 @@ layout: page2
     <a class="title" href="{{ link.url }}">{{ link.title }}</a>
     <div class="tag">
       {{ link.tag }}
+      {% if link.link_tag == 'youtube' %}
+      <i class="fa fa-youtube-play text-secondary"></i>
+      {% endif %}
+	  
       {% if link.date %}
        <span class="date">
         {% if link.date_tag %}{{ link.date_tag }}{% endif %}

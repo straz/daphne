@@ -7,7 +7,7 @@ layout: page2
 
 <ul class="writing list-unstyled">
   {% for link in site.data.writing %}
-  <li class="mb-3"><a href="{{ link.url }}" target="writing">{{ link.title }}</a>
+  <li class="mb-4"><a href="{{ link.url }}" target="writing">{{ link.title }}</a>
       {% if link.subtitle %}
       &middot; <i class="tag">{{ link.subtitle }}</i>
       {% endif %}
