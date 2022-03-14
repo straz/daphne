@@ -2,7 +2,6 @@
 title: contact
 layout: page2
 ---
-
 # Contact
 
 <ul class="contacts1 list-unstyled">
