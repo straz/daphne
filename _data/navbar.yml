@@ -1,7 +1,7 @@
 - name: about
   url: about
-- name: events
-  url: events
+- name: news
+  url: news
 - name: writing
   url: writing
 - name: rekindle

@@ -1,18 +1,11 @@
-$(document).ready(init_page);
-
-PHONE_WIDTH = 645;
+// $(document).ready(init_page);
 
 ICONS = {
   'icon-about': {draw: draw_aboutme, child: '.about-me'},
   'icon-writing': {draw: draw_writing, child: 'ul.writing'},
-  'icon-follow': {draw: draw_follow, child: 'ul.events'}
+  'icon-follow': {draw: draw_follow, child: 'ul.news'}
 };
 
-function init_page(){
-    // click on the iconbar
-    //$('.iconbar > li').click(handle_click);
-    //$(document).click(unclick);
-}
 
 function handle_click(e){
   var classes = $(this).attr('class').split(' ');
@@ -25,10 +18,6 @@ function handle_click(e){
   return false;
 }
 
-// cls = key for ICONS
-// properties = value for ICONS,
-// for example:
-// cls = 'icon-writing', properties = {draw: draw_writing, child: '.menu.writing'}
 function handle_click_icon(cls, properties){
   var child = $(properties.child);
   if (child.css('display') != 'none'){
@@ -42,7 +31,7 @@ function handle_click_icon(cls, properties){
 function unclick(){
   $('.about-me').hide();
   $('ul.writing').hide();
-  $('ul.events').hide();
+  $('ul.news').hide();
 }
 
 function draw_aboutme(){
@@ -51,16 +40,12 @@ function draw_aboutme(){
 }
 
 function draw_writing(){
-  //var pos = $('.icon-writing').offset();
-  //$('.menu.writing').css('left', pos.left).toggle();
   $('ul.writing').toggle();
   return false;
 }
 
 function draw_follow(){
-  //var pos = $('.icon-follow').offset();
-  //   $('.menu.follow').css('left', pos.left)
-  $('ul.events').toggle();
+  $('ul.news').toggle();
   return false;
 }
 
@@ -74,5 +59,4 @@ function draw_contact(){
   }
   return false;
 }
-
 
