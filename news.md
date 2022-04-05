@@ -1,12 +1,12 @@
 ---
-title: events
+title: news
 layout: page2
 ---
 
-# Events
+# News
 
-<ul class="events list-unstyled">
-  {% for link in site.data.events %}
+<ul class="news list-unstyled">
+  {% for link in site.data.news %}
   <li>
     <a class="title" href="{{ link.url }}">{{ link.title }}</a>
     <div class="tag">
