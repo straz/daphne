@@ -1,5 +1,3 @@
-- name: about
-  url: about
 - name: news
   url: news
 - name: writing

@@ -1,5 +1,3 @@
-# About me
-
 <div class="about">
 <p>I am a Memoirist who writes about the intangible spaces between my Latino heritage and my American life.</P>
 
