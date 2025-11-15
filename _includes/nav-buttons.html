@@ -1,0 +1,9 @@
+{% comment %} About me news writing rekindle wordy {% endcomment %}
+
+    <nav class="navbar navbar-light mx-auto w-75">
+      {% for item in site.data.navbar %}
+      <a class="item ms-5 py-2 text-decoration-none {% if page.tab == item.name %}active{% endif %}"
+	 href="{{ item.url }}">{{ item.name }}</a>
+      {% endfor %}
+    </nav>
+

@@ -1,30 +1,48 @@
-- url: "http://birdrobot.wordpress.com"
-  title: Blog  
-  
+- url: https://retirees.mit.edu/events/memoir-group-monthly-class
+  title: Memoir Writing class
+  tag: The Nita Regnier Memoir Writing Group at MIT
+
+- url: https://www.youtube.com/watch?v=QPXtMayOy_c
+  title: The Nita Regnier Memoir Group Shares their New Stories
+  tag: MIT (Youtube)
+  link_tag: youtube
+
+- url: "https://nixesmate.pub/issue-28-29-summer-fall-2023/#daphne-santanastrassman-family-in-a-kit-san-antonio-texas-2008"
+  title: Family in a Kit
+  date: Summer/Fall 2023
+  tag: Nixes Mate Review
+
+- url: "https://www.thecommononline.org/interrogating-the-narrative-of-injustice-daphne-santana-strassmann-interviews-enzo-silon-surin"
+  date: 2023-07-10
+  title: "Interrogating the Narrative of Injustice"  
+  tag: Daphne Santana Strassmann interviews Enzo Silon Surin. The Common, Amherst College
+
+
+- url: "https://grubstreet.org/blog/muse-20-with-daphne-santana-strassmann/"
+  title: Memory in the Memoir is a Frenemy
+  date: 2020-03-25
+  tag: GrubStreet
+
 - url: "http://makinglifework.libsyn.com/episode-36-the-art-of-saying-screw-it"
-  title: Podcast  
+  title: The Art of Saying "Screw It"
+  tag: "Podcast: Making Life Work"
+  date: 2019-02-06
 
-- url: "https://grubstreet.org"
-  title: GrubStreet
-  links:
+- url: "https://grubstreet.org/blog/editor-panel-writers-of-color-daphne-strassman/"
+  title: How Can Journals Do More to Improve Representation?
+  date: 2018-01-22
+  tag: GrubStreet
 
-     - url: "https://grubstreet.org/blog/muse-20-with-daphne-santana-strassmann/"
-       title: Memory in the Memoir is a Frenemy
-       date: 2020-03-25
-
-     - url: "https://grubstreet.org/blog/editor-panel-writers-of-color-daphne-strassman/"
-       title: How Can Journals Do More to Improve Representation?
-       date: 2018-01-22
-
-- url: "https://www.creativenonfiction.org"
-  title: Creative Nonfiction
-  links:
-
-    - url: "https://creativenonfiction.org/writing/the-perils-of-perfect-memory/"
-      title: The Perils of Perfect Memory
-      date: 2015-03-01
+- url: "https://creativenonfiction.org/writing/the-perils-of-perfect-memory/"
+  title: The Perils of Perfect Memory
+  date: 2015-03-01
+  tag: Creative Nonfiction
 
 - url: "http://textmex.blogspot.com"
   title: "Tex{t}-Mex"
   subtitle: contributor
+  tag: Contributor
+  
+- url: "http://birdrobot.wordpress.com"
+  title: Blog  
   
