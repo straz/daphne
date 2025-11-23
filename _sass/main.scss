@@ -8,6 +8,13 @@ body {
   color: black;
 }
 
+nav .brand {
+    font-family: "Bodoni Moda", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-stretch: condensed;
+}
+
 .home.title {
     font-family: "Bodoni Moda", serif;
     font-weight: 400;
@@ -61,12 +68,6 @@ header {
   border-radius: 4px;
   padding: 0px 4px;
   margin-left: .5em;
-}
-
-.writing {
-  ul {
-    padding-left: 3em;
-  }
 }
 
 .news {
