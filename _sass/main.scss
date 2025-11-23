@@ -34,13 +34,6 @@ a {
   }
 }
 
-
-.container {
-  max-width: 960px;
-  padding-bottom: 4em;
-}
-
-
 footer {
   height: 6em;
   background-color: #dbdbd9;
@@ -54,10 +47,6 @@ header {
   }
   li.brand {
     margin-right: 6em;
-  }
-  li.item {
-    padding-top: 1.3em;
-    margin-left: 2em;
   }
   li.social {
     padding-top: 1.8em;
@@ -127,7 +116,6 @@ a.noline:hover {
   padding-left: 4em;
 }
 
-
 @media (max-width: 1000px){
  .about {
     padding-right: 2em;
@@ -135,7 +123,4 @@ a.noline:hover {
  .content {
     padding-left: 2em;
   }
-
 }
-
-
