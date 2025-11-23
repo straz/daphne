@@ -11,20 +11,32 @@ body {
 }
 
 nav .brand {
-    font-family: "Bodoni Moda", serif;
-    font-weight: 400;
+    font-family: "Bodoni Moda";
+    font-weight: 600;
     text-transform: uppercase;
     font-stretch: condensed;
 }
+
 
 .home.title {
     font-family: "Bodoni Moda", serif;
     font-weight: 400;
     font-size: 36pt;
-    font-optical-sizing: auto;
     text-transform: uppercase;
     font-stretch: condensed;
   }
+
+
+@media (max-width: 576px) {
+  // thicker serifs on phone screens
+  nav .brand {
+    font-optical-sizing: none;
+  }
+
+  .home.title {
+    font-optical-sizing: none;
+  }
+}
 
 
 h1 {
