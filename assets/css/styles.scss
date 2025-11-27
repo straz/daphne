@@ -10,11 +10,19 @@ body {
   color: black;
 }
 
-nav .brand {
+nav {
+  .brand {
     font-family: "Bodoni Moda";
     font-weight: 600;
     text-transform: uppercase;
     font-stretch: condensed;
+    img {
+      width: 3em;
+    }
+  }
+  .active {
+    color: #f64043;
+  }
 }
 
 

@@ -1,15 +1,15 @@
 ---
 layout: nonav
-title: writing
+title: conversations
 page: page2
 ---
 
 {% include nav-buttons.html %}
 
-<h1 class="mt-5 mx-1 ms-md-5">Writing</h1>
+<h1 class="mt-5 mx-1 ms-md-5">Conversations</h1>
 
 <ul class="mx-1 ms-md-5 news list-unstyled">
-  {% for link in site.data.writing %}
+  {% for link in site.data.conversations %}
   <li>
     <a class="title" href="{{ link.url }}">{{ link.title }}</a>
     <div class="tag">
@@ -28,5 +28,3 @@ page: page2
   </li>
   {% endfor %}
 </ul>
-
-

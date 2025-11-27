@@ -1,8 +1,12 @@
-- name: news
-  url: news
+- name: updates
+  url: updates
 - name: writing
   url: writing
+- name: conversations
+  url: conversations
 - name: workshops
-  url: "https://rekindleyourcraft.com"
-- name: Wordy!
+  url: workshops
+- name: inspiration
   url: "https://rekindleyourcraft.com/wordy"
+  tooltip: Prompts to ignite your story
+  

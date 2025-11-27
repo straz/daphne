@@ -1,10 +1,33 @@
-<nav class="navbar navbar-light">
-  {% if page.page2 %}
-  <a class="col-12 col-md-5 brand text-md-left text-center text-decoration-none" href="/">Daphne Santana Strassmann</a>
+<nav class="navbar navbar-light mx-auto
+	    {% if page.page == 'home' %}
+	    w-75 
+	    {% endif %}
+	    ">
+  {% if page.page == 'page2' %}
+  <a class="col brand text-md-left text-center text-decoration-none" href="/">
+    <img src="assets/pix/head.svg"/>
+  </a>
   {% endif %}
   {% for item in site.data.navbar %}
-  <a class="col text-center text-decoration-none {% if page.tab == item.name %}active{% endif %}"
+  <a class="col text-center text-decoration-none
+	    {% if item.name == 'updates' %}ms-4{% endif %}
+	    {% assign tag = (page.title | downcase) -%}
+	    {% if tag == item.name %}active{% endif -%}
+	    "
+     {% if item.tooltip %}
+     data-bs-toggle="tooltip"
+     data-bs-original-title="{{ item.tooltip}}"
+     {% endif %}
+     {% if item.url contains "https" %}
+     target="_blank"
+     {% endif %}
      href="{{ item.url }}">{{ item.name }}</a>
   {% endfor %}
 </nav>
 
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+</script>

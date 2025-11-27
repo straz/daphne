@@ -1,15 +1,15 @@
 ---
 layout: nonav
-title: news
-page2: true
+title: Updates
+page: page2
 ---
 
 {% include nav-buttons.html %}
 
-<h1 class="mt-5 mx-1 ms-md-5">News</h1>
+<h1 class="mt-5 mx-1 ms-md-5">Updates</h1>
 
 <ul class="mx-1 ms-md-5 news list-unstyled">
-  {% for link in site.data.news %}
+  {% for link in site.data.updates %}
   <li>
     <a class="title" href="{{ link.url }}">{{ link.title }}</a>
     <div class="tag">
