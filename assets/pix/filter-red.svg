@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="colorFilter">
+      <feColorMatrix 
+	  color-interpolation-filters="sRGB"
+	  type="matrix"
+	  values="0.96 0    0    0   0
+		  0    0.25 0    0   0
+		  0    0    0.26 0   0
+		  0    0    0    1   0 "/>
+    </filter>
+  </defs>
+</svg>
+
+<!--
+ equivalent of #f64043
+ from "https://css-tricks.com/the-many-ways-to-change-an-svg-fill-on-hover-and-when-to-use-them/" -->
