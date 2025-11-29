@@ -15,9 +15,10 @@ wrote about our conference theme “Imagination and Reality.” In this
 blog series we asked presenters to explore the boundaries between fact
 and imagination, and how each contributes to great writing. Here,
 authors have selected a passage from their own work, 
-<span style="color: green;">**highlighting in green**</green> which elements came roughly from their **direct experience,
-memory, or fact**; while **highlighting in blue** which elements came
-from their **imagination or speculation**. In this post, **Daphne
+{% include green.html txt="highlighting in green"%}
+which elements came roughly from their {% include green.html txt="direct experience,
+memory, or fact" %}; while {% include blue.html txt="highlighting in blue" %} which elements came
+from their {% include blue.html txt="imagination or speculation" %}. In this post, **Daphne
 Strassmann** shares an excerpt from her writing and explains why
 "memory in the memoir is a frenemy."
 
