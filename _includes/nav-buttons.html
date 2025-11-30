@@ -1,15 +1,16 @@
-<nav class="navbar navbar-light mx-auto
+<nav class="navbar navbar-light mt-5 mx-auto
 	    {% if page.page == 'home' %}
 	    w-75 
 	    {% endif %}
 	    ">
   {% if page.page == 'page2' %}
-  <a class="col brand text-md-left text-center text-decoration-none" href="/">
-    <img src="assets/pix/head.svg"/>
+  <a class="brand ps-2 text-decoration-none" href="/">
+    Daphne Santana Strassmann
   </a>
   {% endif %}
-  {% for item in site.data.navbar %}
-  <a class="col text-center text-decoration-none
+  <div>
+    {% for item in site.data.navbar %}
+    <a class="nav-item px-2 text-center text-decoration-none
 	    {% assign tag = (page.title | downcase) -%}
 	    {% if tag == item.name %}active{% endif -%}
 	    "
@@ -21,7 +22,8 @@
      target="_blank"
      {% endif %}
      href="{{ item.url }}">{{ item.name }}</a>
-  {% endfor %}
+    {% endfor %}
+    </div>
 </nav>
 
 <script>
