@@ -6,11 +6,11 @@
 
 body {
   font-family: "Nunito", sans-serif;
-  font-size: 17pt;
   color: black;
 }
 
 nav {
+  font-size: 1.3rem;
   .brand {
     font-family: "Bodoni Moda";
     font-weight: 600;
@@ -95,9 +95,10 @@ header {
 .news {
   li {
     margin-bottom: .7em;
+    font-size: 1.2rem;
     .tag {
       margin-bottom: .2em;
-      font-size: 80%;
+      font-size: 1rem;
     }
   }
 }
@@ -128,22 +129,3 @@ a.noline:hover {
     h1 { margin-top: 2em }
 }
 
-
-/* PHONE SIZES */
-
-.about {
-  font-size: 85%;
-}
-
-.content {
-  padding-left: 4em;
-}
-
-@media (max-width: 1000px){
- .about {
-    padding-right: 2em;
-  }
- .content {
-    padding-left: 2em;
-  }
-}

@@ -1,3 +1,9 @@
+- url: https://www.youtube.com/watch?v=QPXtMayOy_c
+  title: The Nita Regnier Memoir Group Shares their New Stories
+  tag: MIT (Youtube)
+  link_tag: youtube
+  date: 2022-10
+
 - url: "https://bit.ly/459UMYC"
   altUrl: "https://www.meetup.com/boston-writers-of-color/events/301002260"
   date: 2024-07-11
@@ -31,6 +37,11 @@
 - url: "https://makinglifework.libsyn.com/episode-36-the-art-of-saying-screw-it"
   title: Making Life Work podcast
   tag: Interview
+
+- url: "http://makinglifework.libsyn.com/episode-36-the-art-of-saying-screw-it"
+  title: The Art of Saying "Screw It"
+  tag: "Podcast: Making Life Work"
+  date: 2019-02-06
 
 - url: "https://www.pw.org/content/novemberdecember_2018"
   title: Poets and Writers

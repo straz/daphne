@@ -10,7 +10,6 @@
   {% endif %}
   {% for item in site.data.navbar %}
   <a class="col text-center text-decoration-none
-	    {% if item.name == 'updates' %}ms-4{% endif %}
 	    {% assign tag = (page.title | downcase) -%}
 	    {% if tag == item.name %}active{% endif -%}
 	    "
