@@ -11,7 +11,11 @@ page: page2
 <ul class="mx-1 ms-md-5 news list-unstyled">
   {% for link in site.data.updates %}
   <li>
+    {% if link.url %}
     <a class="title" href="{{ link.url }}">{{ link.title }}</a>
+    {% else %}
+    {{ link.title }}
+    {% endif %}
     <div class="tag">
       {{ link.tag }}
       {% if link.link_tag == 'youtube' %}
